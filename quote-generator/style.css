@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Berkshire+Swash);
+
+body {
+  background: #49A078;
+  font-family: 'Berkshire Swash', cursive
+}
+h1 {
+  font-size: 6rem;
+  color: #1F2421;
+}
+h1 .rotate {
+  color: #DCE1DE;
+  padding: 1rem;
+}
+ul {
+  list-style:none;
+}
+li::after {
+  font-family: FontAwesome;
+  content: "\f001";
+  font-size: 3rem;
+  margin-left: 4rem;
+}
+#\23 main {
+  padding-bottom: 10rem;
+}
+.quote-box {
+  border: #216869 10px inset;
+  color: #DCE1DE;
+  background: #1F2421;
+  min-height: 15rem;
+  margin: 10rem auto auto;
+  float:none;
+  border-radius: 15px;
+  line-height:8rem;
+  font-size: 5rem;
+  overflow: auto;
+}
+#quote {
+  padding: 3rem;
+}
+.quote-content::before {
+  font-family: FontAwesome;
+  content: '\f10d';
+  float:left;
+}
+.quote-content::after {
+  font-family: FontAwesome;
+  content: '\f10e';
+  float:right;
+}
+.first {
+  color: #9CC5A1;
+  padding:1rem;
+  margin: 10rem 1rem 12rem;
+  float:left;
+  display:inline-flex;
+}
+.credit {
+  float:right;
+}
+#generate {
+  color: #fff;
+  background-color: #216869;
+  border-color: #1F2421;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+#generate:hover, generate:active {
+  background-color: #9CC5A1;
+}
+#generate:focus {
+  outline-color: #49A078;
+}
+
+
+@media (min-width:280px){
+    h1 {
+    font-size: 3rem;
+  }
+  #quote {
+    font-size: 2.6rem;
+    padding: 1rem;
+    line-height:3.6rem;
+  }
+  .first {
+    font-size: 9rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+}
+@media (min-width:540px){
+  h1 {
+    font-size: 5rem;
+  }
+   #generate {
+    width: 24rem;
+    height: 6rem;
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+  #quote {
+    line-height: 4rem;
+  }
+  .first {
+    font-size: 12rem;
+  }
+}
+@media (min-width: 720px){
+  h1 {
+    margin-bottom: 6rem;
+  }
+  .quote-box {
+    max-width: 70%;
+  }
+   #generate {
+    width: 32rem;
+    height: 8rem;
+    font-size: 4rem;
+    margin-top: 3rem;
+  }
+  #quote {
+    font-size: 3.2rem;
+    line-height: 6rem;
+  }
+  .first {
+    font-size: 16rem;
+    padding: 2rem;
+    margin-bottom: 8rem;
+  }
+}
+@media (min-width:1024px){
+  h1 {
+    font-size: 8rem;
+    color: #1F2421;
+    margin: 8rem auto;
+  }
+  h1 .rotate {
+    padding: 2.6rem;
+  }
+  #quote {
+    font-size: 4rem;
+    line-height: 7rem;
+  }
+  .first {
+    font-size: 24rem;
+    padding:5rem;
+    margin: 2rem 1rem 12rem;
+  }
+}
+@media (min-width: 1600px){
+  h1 {
+    font-size: 12rem;
+    margin: 12rem auto;
+  }
+}
+@media(min-width:2200px){
+  h1 {
+    font-size: 16rem;
+    margin: 16rem auto;
+  }
+   #quote {
+    font-size: 6rem;
+    line-height: 10rem;
+  }
+  .first {
+    font-size: 32rem;
+    padding: 8rem;
+  }
+}

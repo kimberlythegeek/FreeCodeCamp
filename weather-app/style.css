@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Philosopher:400,400italic);
+
+body {
+  font-family: 'Philosopher', sans-serif;
+  color: white;
+  background: #2D3142 url('./floral.png');
+  font-size: 1.8rem;
+}
+h1 {
+  color: #F5F5F5;
+  font-size:6rem;
+  font-family: 'Satisfy', cursive;
+}
+.cloud {
+  font-size: 8rem;
+}
+.fa-cloud {
+  color: white;
+}
+.weather {
+  background: #31493C;
+  height: 30rem;
+  border-radius: 15px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  height: auto;
+  padding: 1rem;
+}
+.title {
+  padding: 3rem;
+}
+.locate {
+  background: #4F5D75;
+  border: none;
+  margin:3rem auto;
+}
+.btn-primary:hover {
+  background: #BFC0C0;
+  color: #2D3142;
+  border: none;
+}
+.btn-primary:focus {
+  outline: 0;
+}
+.data {
+  padding:3rem;
+}
+#units {
+  float:right;
+}
+#city,
+#temp,
+#description {
+  line-height: 3rem;
+}
+
+@media (min-width:540px) {
+  body {
+    font-size: 2.8rem;
+  }
+  h1 {
+  }
+  .weather {
+    max-width: 500px;
+    margin: 4rem auto;
+    float: none;
+  }
+  #city,
+  #temp,
+  #description {
+    line-height: 5rem;
+  }
+}
+@media (min-width:980px) {
+  h1 {
+    font-size: 8rem;
+  }
+}
+@media (min-width: 1500px) {
+  h1 {
+    font-size: 12rem;
+  }
+}

@@ -1,0 +1,60 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+  <script src="scripts.js"></script>
+</head>
+
+<header>
+
+</header>
+
+
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="title text-center">
+      <h1>My Weather App</h1><br>
+      <i class="fa fa-cloud cloud" aria-hidden="true"></i>
+    </div>
+    <div class="weather col-xs-10 col-xs-offset-1">
+      <div class="data col-xs-8 col-xs-offset-2">
+        <div id="city" class="text-center"></div>
+        <div class="temp-wrapper text-center">
+          <div id="temp"></div>
+          <div id="temp-switch">
+            <div class="btn-group">
+              <button id="units" class="btn btn-xs btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="btn-text">Switch Units</span> <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu temperature-units">
+                <li><a id="imperial" href="#">Fahrenheit</a></li>
+                <li><a id="metric" href="#">Celsius</a></li>
+                <li><a id="standard" href="#">Kelvin</a></li>
+              </ul><!-- .dropdown-menu .temperature-units -->
+            </div><!-- .btn-group -->
+          </div><!-- #temp-switch -->
+        </div><!-- #temp -->
+        <div id="description" class="text-center"></div><!-- #description -->
+      </div>
+      <button class="btn btn-primary locate center-block">Use Current Location</button>
+    </div><!-- .title -->
+    <div class="json col-md-12 text-center"></div>
+  </div> <!-- .row -->
+</div><!-- .container-fluid -->
+
+
+</body>
+
+
+<footer>
+  
+</footer>
