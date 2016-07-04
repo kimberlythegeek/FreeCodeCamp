@@ -39,6 +39,9 @@ li::after {
 #quote {
   padding: 3rem;
 }
+.quote-content{
+  float: right;
+}
 .quote-content::before {
   font-family: FontAwesome;
   content: '\f10d';
@@ -55,6 +58,14 @@ li::after {
   margin: 10rem 1rem 12rem;
   float:left;
   display:inline-flex;
+}
+.tweet {
+  float: left;
+  font-size: 8rem;
+}
+.fa-twitter:hover {
+  cursor: pointer;
+  color: #55acee;
 }
 .credit {
   float:right;
@@ -87,6 +98,10 @@ li::after {
     font-size: 9rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
+  }
+  .tweet {
+    font-size: 4rem;
+    padding-top: 4rem;
   }
 }
 @media (min-width:540px){
@@ -128,6 +143,10 @@ li::after {
     padding: 2rem;
     margin-bottom: 8rem;
   }
+  .tweet {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+  }
 }
 @media (min-width:1024px){
   h1 {
@@ -153,6 +172,9 @@ li::after {
     font-size: 12rem;
     margin: 12rem auto;
   }
+  .tweet {
+    font-size: 6rem;
+  }
 }
 @media(min-width:2200px){
   h1 {
@@ -166,5 +188,8 @@ li::after {
   .first {
     font-size: 32rem;
     padding: 8rem;
+  }
+  .tweet {
+    font-size: 8rem;
   }
 }

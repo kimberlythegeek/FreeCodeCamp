@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Subrayada:700);
+/* colors
+#6441a4
+#b9a3e3
+#3b2064
+ */
+body {
+  color: white;
+  background: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #6441A5;
+  font-size: 8rem;
+}
+table {
+  border: 3px white solid;
+  margin-top: 3rem;
+}
+tr {
+  background: #6441a4;
+  margin-top: 1rem;
+  padding: 3rem;
+}
+td {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+td {
+  border-top: 1rem white solid;
+}
+a {
+  color: #F1F1F1;
+}
+  a:hover {
+    color: #3D2865;
+    text-decoration: none;
+  }
+.title {
+  margin-top: 6rem;
+}
+.toggle-view {
+  margin-top: 10rem;
+}
+#name {
+  font-weight: 700;
+}
+.logo {
+  height: 5rem;
+}
+.fa {
+  font-size: 5rem;
+}
+
+@media (min-width: 280px) {
+  #status {
+    display: none;
+  }
+  .col-xs-offset-1 {
+    margin: 3rem auto;
+    float: none;
+  }
+}
+@media (min-width: 540px) {
+  #status {
+    display: table-cell;
+  }
+}
+@media (min-width: 1600px) {
+  table {
+    max-width: 75%;
+  }
+}
