@@ -26,12 +26,12 @@ ___Don't look at the example project's code. Figure it out for yourself.___
  ____
 
 ## Front End Development Projects
-___
-  ### Basic Development Projects
 
-  #### Build a Tribute Page
+### Basic Development Projects
 
-  ###### _http://codepen.io/kimberlythegeek/full/QNXvNB/_
+#### Build a Tribute Page
+
+###### _http://codepen.io/kimberlythegeek/full/QNXvNB/_
 
   - __User Story:__
 
@@ -76,12 +76,13 @@ ___
   __[Example Site]()__
 
 ___
+
 ## Intermediate Front End Development Projects
-___
 
-  #### Build a Random Quote Machine
+#### Build a Random Quote Machine
 
-  ###### http://codepen.io/kimberlythegeek/full/GZbamE/
+###### http://codepen.io/kimberlythegeek/full/GZbamE/
+
   > _I forgot about the user story for tweeting a quote. Most of my quotes are more than 140 characters, and I haven't yet gone back to add this feature._
 
   - __User Story:__
@@ -100,9 +101,9 @@ ___
 
 ___
 
-  #### Show the Local Weather
+#### Show the Local Weather
 
-  ###### _http://codepen.io/kimberlythegeek/full/KzOwam/_
+###### _http://codepen.io/kimberlythegeek/full/KzOwam/_
 
   > _The geolocation does not appear to work in the Chrome browser. I'm not sure if it is an issue with this particular API or not. Others reported having a similar issue with Chrome._
 
@@ -126,9 +127,9 @@ ___
 
   ___
 
-  #### Build a Wikipedia Viewer
+#### Build a Wikipedia Viewer
 
-  ###### _http://codepen.io/kimberlythegeek/full/OXPwrQ/_
+###### _http://codepen.io/kimberlythegeek/full/OXPwrQ/_
 
   - __User Story:__
 
@@ -175,8 +176,6 @@ __[Example Site](https://codepen.io/FreeCodeCamp/full/Myvqmo/)__
 ___
 
 ## Advanced Front End Development Projects
-
-___
 
 #### Build a Javascript Calculator
 
