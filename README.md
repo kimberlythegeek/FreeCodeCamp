@@ -1,6 +1,6 @@
 > _Resources used:_
 
-> _[jQuery](https://jquery.com/), [Bootsrap](http://getbootstrap.com/), [FontAwesome](http://fontawesome.io/icons/), [Google Fonts](https://www.google.com/fonts), [Coolors.co](https://coolors.co/), [JSON Pretty Print](http://jsonprettyprint.net/), [Adobe Color CC](https://color.adobe.com/create/color-wheel/), [MDN JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference), [Stack Overflow](https://stackoverflow.com/)
+> _[jQuery](https://jquery.com/), [Bootsrap](http://getbootstrap.com/), [FontAwesome](http://fontawesome.io/icons/), [Google Fonts](https://www.google.com/fonts), [Coolors.co](https://coolors.co/), [JSON Pretty Print](http://jsonprettyprint.net/), [Adobe Color CC](https://color.adobe.com/create/color-wheel/), [MDN JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference), [Stack Overflow](https://stackoverflow.com/)_
 
 
 # Free Code Camp Projects
