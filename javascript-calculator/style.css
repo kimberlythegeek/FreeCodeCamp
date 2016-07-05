@@ -24,7 +24,7 @@ td {
   background: lightgrey;
   width: 50rem;
   max-width: 100%;
-  margin: 10rem auto;
+  margin: auto;
   padding: 3rem;
   float: none;
   border-radius: 15px;
@@ -42,4 +42,19 @@ td {
   line-height: 3.5rem;
   font-size: 2.6rem;
   font-weight: bold;
+}
+.red {
+  color: red;
+}
+
+@media (min-width:200px){
+  h1{
+    font-size: 4rem;
+  }
+  .title {
+    margin-top: 1rem;
+  }
+  #calculator {
+    margin-top: 3rem;
+  }
 }
