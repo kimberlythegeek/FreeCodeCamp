@@ -19,7 +19,7 @@ ___Don't look at the example project's code. Figure it out for yourself.___
      - [Build a Random Quote Machine](#build-a-random-quote-machine)
      - [Show the Local Weather](#show-the-local-weather)
      - [Build a Wikipedia Viewer](#build-a-wikipedia-viewer)
-     - [Use the Twitch.tv JSON API](#use-the-twitch.tv-json-api)
+     - [Use the Twitch.tv JSON API](#use-the-twitchtv-json-api)
    - [Advanced Front End Development Projects](#advanced-front-end-development-projects)
      - [Build a Javascript Calculator](#build-a-javascript-calculator)
 
