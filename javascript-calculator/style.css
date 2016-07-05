@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Patua+One);
+
+h1 {
+  font-family: 'Patua One', cursive;
+  font-size: 7rem;
+}
+table, tbody, tr {
+  width: 100%;
+  max-width: 40rem;
+  margin: auto;
+}
+tr {
+  width: 95%;
+  margin: 2rem auto;
+}
+td {
+  width: 25%;
+}
+.title {
+  margin-top: 6rem;
+}
+#calculator {
+  min-height: 40rem;
+  background: lightgrey;
+  width: 50rem;
+  max-width: 100%;
+  margin: 10rem auto;
+  padding: 3rem;
+  float: none;
+  border-radius: 15px;
+}
+#output{
+  height: 6rem;
+  width: 95%;
+  max-width: 38rem;
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+.btn {
+  width: 80%;
+  height: 5rem;
+  margin: 0.4rem auto;
+  line-height: 3.5rem;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
