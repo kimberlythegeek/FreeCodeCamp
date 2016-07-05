@@ -49,9 +49,9 @@ ___Don't look at the example project's code. Figure it out for yourself.___
 
 ___
 
-  #### Build a Portfolio Page
+#### Build a Portfolio Page
 
-  ###### _http://codepen.io/kimberlythegeek/full/GZbvYj/_
+###### _http://codepen.io/kimberlythegeek/full/GZbvYj/_
 
   - __User Story:__
 
