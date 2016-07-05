@@ -1,6 +1,7 @@
-Assignments from Free Code Camp's Front End Development Certification.
+> _Resources used:_
 
-Will add more detailed README at a future time.
+> _[jQuery](https://jquery.com/), [Bootsrap](http://getbootstrap.com/), [FontAwesome](http://fontawesome.io/icons/), [Google Fonts](https://www.google.com/fonts), [Coolors.co](https://coolors.co/), [JSON Pretty Print](http://jsonprettyprint.net/), [Adobe Color CC](https://color.adobe.com/create/color-wheel/), [MDN JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference), [Stack Overflow](https://stackoverflow.com/)
+
 
 # Free Code Camp Projects
 
@@ -21,7 +22,7 @@ ___Don't look at the example project's code. Figure it out for yourself.___
      - [Build a Wikipedia Viewer](#build-a-wikipedia-viewer)
      - [Use the Twitch.tv JSON API](#use-the-twitchtv-json-api)
    - [Advanced Front End Development Projects](#advanced-front-end-development-projects)
-     - [Build a Javascript Calculator](#build-a-javascript-calculator)
+     - [Build a JavaScript Calculator](#build-a-javascript-calculator)
 
  ____
 
@@ -177,7 +178,7 @@ ___
 
 ## Advanced Front End Development Projects
 
-#### Build a Javascript Calculator
+#### Build a JavaScript Calculator
 
 ###### _http://codepen.io/kimberlythegeek/full/XKgOWd/_
 
