@@ -55,7 +55,7 @@ ___
 
   - __User Story:__
 
-  _ I can access all of the portfolio web page's content just by scrolling._
+  _I can access all of the portfolio web page's content just by scrolling._
 
   - __User Story:__
 
@@ -63,11 +63,11 @@ ___
 
   - __User Story:__
 
-  _ I can see thumbnail images of different projects the portfolio creator has built (if you haven't built any websites before, use placeholders.)_
+  _I can see thumbnail images of different projects the portfolio creator has built (if you haven't built any websites before, use placeholders.)_
 
   - __User Story:__
 
-  _ I navigate to different sections of the web page by clicking buttons in the navigation._
+  _I navigate to different sections of the web page by clicking buttons in the navigation._
 
 
   __[Assignment Details]()__
