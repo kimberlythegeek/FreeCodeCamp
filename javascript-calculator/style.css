@@ -58,3 +58,48 @@ td {
     margin-top: 3rem;
   }
 }
+
+/* iPhone 6 Portrait and Landscape */
+@media only screen
+  and (-webkit-min-device-pixel-ratio: 2) {
+    h1 {
+      font-size: 8rem;
+    }
+    table, tbody, tr {
+      width: 100%;
+    }
+    table {
+      max-width: none;
+      height:70rem;
+    }
+    #calculator{
+      width: 100%;
+      max-width: 900px;
+    }
+    #calculate,
+    .btn {
+      font-size: 350%;
+      height: 12rem;
+    }
+}
+
+/* iPhone 6+ Portrait and Landscape */
+@media only screen
+  and (-webkit-min-device-pixel-ratio: 3) {
+    table, tbody, tr {
+      width: 100%;
+    }
+    table{
+      max-width: none;
+      height:70rem;
+    }
+    #calculator{
+      width: 100%;
+      max-width: 900px;
+    }
+    #calculate,
+    .btn {
+      font-size: 350%;
+      height: 12rem;
+    }
+}
