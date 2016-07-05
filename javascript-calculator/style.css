@@ -29,13 +29,11 @@ td {
   float: none;
   border-radius: 15px;
 }
-#output{
+#calculate {
+  width: 90%;
   height: 6rem;
-  width: 95%;
-  max-width: 38rem;
-  background-color: white;
-  padding: 1rem;
   margin: 1rem auto;
+  text-align: right;
 }
 .btn {
   width: 80%;
