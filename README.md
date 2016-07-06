@@ -34,13 +34,9 @@ ___Don't look at the example project's code. Figure it out for yourself.___
 
 ###### _http://codepen.io/kimberlythegeek/full/QNXvNB/_
 
-  - __User Story:__
+  - __User Story:__ _I can view a tribute page with an image and text._
 
-  _I can view a tribute page with an image and text._
-
-  - __User Story:__
-
-  _I can click on a link that will take me to an external website with further information on the topic._
+  - __User Story:__ _I can click on a link that will take me to an external website with further information on the topic._
 
 
   __[Assignment Details](https://www.freecodecamp.com/challenges/build-a-tribute-page)__
@@ -54,21 +50,13 @@ ___
 
 ###### _http://codepen.io/kimberlythegeek/full/GZbvYj/_
 
-  - __User Story:__
+  - __User Story:__ _I can access all of the portfolio web page's content just by scrolling._
 
-  _I can access all of the portfolio web page's content just by scrolling._
+  - __User Story:__ _I can click different buttons that will take me to the portfolio creator's different social media pages._
 
-  - __User Story:__
+  - __User Story:__ _I can see thumbnail images of different projects the portfolio creator has built (if you haven't built any websites before, use placeholders.)_
 
-  _I can click different buttons that will take me to the portfolio creator's different social media pages._
-
-  - __User Story:__
-
-  _I can see thumbnail images of different projects the portfolio creator has built (if you haven't built any websites before, use placeholders.)_
-
-  - __User Story:__
-
-  _I navigate to different sections of the web page by clicking buttons in the navigation._
+  - __User Story:__ _I navigate to different sections of the web page by clicking buttons in the navigation._
 
 
   __[Assignment Details]()__
@@ -86,13 +74,9 @@ ___
 
   > _I forgot about the user story for tweeting a quote. Most of my quotes are more than 140 characters, and I haven't yet gone back to add this feature._
 
-  - __User Story:__
+  - __User Story:__ _I can click a button to show me a new random quote._
 
-  _I can click a button to show me a new random quote._
-
-  - __User Story:__
-
-  _I can press a button to tweet out a quote._
+  - __User Story:__ _I can press a button to tweet out a quote._
 
 
   __[Assignment Details](https://www.freecodecamp.com/challenges/build-a-random-quote-machine)__
@@ -108,17 +92,11 @@ ___
 
   > _The geolocation does not appear to work in the Chrome browser. I'm not sure if it is an issue with this particular API or not. Others reported having a similar issue with Chrome._
 
-  - __User Story:__
+  - __User Story:__ _I can see the weather in my current location._
 
-  _I can see the weather in my current location._
+  - __User Story:__ _I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather._
 
-  - __User Story:__
-
-  _I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather._
-
-  - __User Story:__
-
-  _I can push a button to toggle between Fahrenheit and Celsius._
+  - __User Story:__ _I can push a button to toggle between Fahrenheit and Celsius._
 
 
   __[Assignment Details](https://www.freecodecamp.com/challenges/show-the-local-weather)__
@@ -132,13 +110,9 @@ ___
 
 ###### _http://codepen.io/kimberlythegeek/full/OXPwrQ/_
 
-  - __User Story:__
+  - __User Story:__ _I can search Wikipedia entries in a search box and see the resulting Wikipedia entries._
 
-  _I can search Wikipedia entries in a search box and see the resulting Wikipedia entries._
-
-  - __User Story:__
-
-  _I can click a button to see a random Wikipedia entry._
+  - __User Story:__ _I can click a button to see a random Wikipedia entry._
 
 
   __[Assignment Details](https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer)__
@@ -152,21 +126,13 @@ ___
 
 ###### _http://codepen.io/kimberlythegeek/full/EygKbx/_
 
-  - __User Story:__
+  - __User Story:__ _I can see whether Free Code Camp is currently streaming on Twitch.tv._
 
-  _I can see whether Free Code Camp is currently streaming on Twitch.tv._
+  - __User Story:__ _I can click the status output and be sent directly to the Free Code Camp's Twitch.tv channel._
 
-  - __User Story:__
+  - __User Story:__ _If a Twitch user is currently streaming, I can see additional details about what they are streaming._
 
-  _I can click the status output and be sent directly to the Free Code Camp's Twitch.tv channel._
-
-  - __User Story:__
-
-  _If a Twitch user is currently streaming, I can see additional details about what they are streaming._
-
-  - __User Story:__
-
-  _I will see a placeholder notification if a streamer has closed their Twitch account (or the account never existed). You can verify this works by adding brunofin and comster404 to your array of Twitch streamers._
+  - __User Story:__ _I will see a placeholder notification if a streamer has closed their Twitch account (or the account never existed). You can verify this works by adding brunofin and comster404 to your array of Twitch streamers._
 
 
 __[Assignment Details](https://www.freecodecamp.com/challenges/use-the-twitchtv-json-api)__
@@ -186,17 +152,11 @@ ___
 
 > _I decided to add a feature so that the display is also an input, and you can input expressions using a keyboard instead of clicking buttons. I would like to also add additional buttons and operators._
 
-- __User Story:__
+- __User Story:__ _I can add, subtract, multiply and divide two numbers._
 
-_I can add, subtract, multiply and divide two numbers._
+- __User Story:__ _I can clear the input field with a clear button._
 
-- __User Story:__
-
-_I can clear the input field with a clear button._
-
-- __User Story:__
-
-_I can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output._
+- __User Story:__ _I can keep chaining mathematical operations together until I hit the equal button, and the calculator will tell me the correct output._
 
 
 __[Assignment Details](https://www.freecodecamp.com/challenges/build-a-javascript-calculator)__
