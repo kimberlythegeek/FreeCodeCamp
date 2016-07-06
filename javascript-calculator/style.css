@@ -1,8 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Patua+One);
+@import url(https://fonts.googleapis.com/css?family=Space+Mono:400);
+/* dark green   #282B28
+// green        #D34E24
+// light green  #83BCA9
+// orange       #D36135
+//red orange    #A24936*/
 
 h1 {
+  color: #DE89BE;
+  text-shadow: 2px 2px 4px #070707;
   font-family: 'Patua One', cursive;
   font-size: 7rem;
+  margin: 6rem auto;
+}
+body {
+  background: #40434E;
 }
 table, tbody, tr {
   width: 100%;
@@ -11,7 +23,7 @@ table, tbody, tr {
 }
 tr {
   width: 95%;
-  margin: 2rem auto;
+  margin: 1.8rem auto;
 }
 td {
   width: 25%;
@@ -21,21 +33,48 @@ td {
 }
 #calculator {
   min-height: 40rem;
-  background: lightgrey;
-  width: 50rem;
+  border: 2px outset #DE89BE;
+  background: #C297B8;
+  box-shadow: 2px 3px 24px 3px rgba(7, 7, 7, 0.3), 0 4px 25px 11px rgba(7, 7, 7, 0.2);
+  width: 45rem;
   max-width: 100%;
   margin: auto;
-  padding: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
   float: none;
   border-radius: 15px;
 }
 #calculate {
+  border: 3px inset #40434E;
   width: 90%;
   height: 6rem;
-  margin: 1rem auto;
+  margin: 1.8rem auto;
   text-align: right;
+  font-size: 3rem;
+  font-family: 'Space Mono', monospace;
+  color: #DE89BE;
+  background: #070707;
 }
+  ::-webkit-input-placeholder {
+    color: #D34E24;
+    font-size: 1.8rem;
+  }
+  ::-moz-placeholder {
+    color: #D34E24;
+    font-size: 1.8rem;
+  }
+  :-ms-input-placeholder {
+    color: #D34E24;
+    font-size: 1.8rem;
+  }
+  :-moz-placeholder {
+    color: #D34E24;
+    font-size: 1.8rem;
+  }
 .btn {
+  color: #40434E;
+  border: 2px outset #FDCFF3;
+  background: #DE89BE;
   width: 80%;
   height: 5rem;
   margin: 0.4rem auto;
@@ -43,8 +82,14 @@ td {
   font-size: 2.6rem;
   font-weight: bold;
 }
+  .btn:hover{
+    color: #070707;
+    background: #FDCFF3;
+    border: 2px outset #DE89BE;
+  }
+
 .red {
-  color: red;
+  color: red!important;
 }
 
 @media (min-width:200px){
@@ -52,7 +97,7 @@ td {
     font-size: 4rem;
   }
   .title {
-    margin-top: 1rem;
+    margin-top: 1.8rem;
   }
   #calculator {
     margin-top: 3rem;
@@ -63,7 +108,8 @@ td {
 @media only screen
   and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
-      font-size: 8rem;
+      font-size: 9rem;
+      padding: 5rem;
     }
     table, tbody, tr {
       width: 100%;
@@ -79,13 +125,29 @@ td {
     #calculate,
     .btn {
       font-size: 350%;
-      height: 12rem;
+      height: 11.8rem;
+    }
+    ::-webkit-input-placeholder {
+      font-size: 3rem;
+    }
+    ::-moz-placeholder {
+      font-size: 3rem;
+    }
+    :-ms-input-placeholder {
+      font-size: 3rem;
+    }
+    :-moz-placeholder {
+      font-size: 3rem;
     }
 }
 
 /* iPhone 6+ Portrait and Landscape */
 @media only screen
   and (-webkit-min-device-pixel-ratio: 3) {
+    h1 {
+      font-size: 9rem;
+      padding: 5rem;
+    }
     table, tbody, tr {
       width: 100%;
     }
@@ -100,6 +162,18 @@ td {
     #calculate,
     .btn {
       font-size: 350%;
-      height: 12rem;
+      height: 11.8rem;
+    }
+    ::-webkit-input-placeholder {
+      font-size: 3rem;
+    }
+    ::-moz-placeholder {
+      font-size: 3rem;
+    }
+    :-ms-input-placeholder {
+      font-size: 3rem;
+    }
+    :-moz-placeholder {
+      font-size: 3rem;
     }
 }

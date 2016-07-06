@@ -2,7 +2,7 @@ var answer = 0;
 
 function calculateInput(input){
   input = input.replace(/Ans/g, answer);
-  if(input.match(/[^0-9\*\/\+\^\(\)\.\-]/g) !== null){
+  if(input.match(/[^0-9\%\*\/\+\^\(\)\.\-]/g) !== null){
     // flash();
     $('#calculate').addClass('red');
   }
