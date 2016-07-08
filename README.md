@@ -22,8 +22,8 @@ ___Don't look at the example project's code. Figure it out for yourself.___
      - [Build a Wikipedia Viewer](#build-a-wikipedia-viewer)
      - [Use the Twitch.tv JSON API](#use-the-twitchtv-json-api)
    - [Advanced Front End Development Projects](#advanced-front-end-development-projects)
-   - [Build a JavaScript Calculator](#build-a-javascript-calculator)
-   - [Build a Pomodoro Clock](#build-a-pomodoro-clock)
+     - [Build a JavaScript Calculator](#build-a-javascript-calculator)
+     - [Build a Pomodoro Clock](#build-a-pomodoro-clock)
 
  ____
 
