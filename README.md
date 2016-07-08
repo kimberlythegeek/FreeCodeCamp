@@ -163,3 +163,27 @@ __[Assignment Details](https://www.freecodecamp.com/challenges/build-a-javascrip
 
 
 __[Example Site](https://codepen.io/FreeCodeCamp/full/PNKdjo/)__
+
+____
+
+#### Build a Pomodoro Clock
+
+###### http://codepen.io/kimberlythegeek/full/YWxONq/
+
+> _Still in development._
+
+> _Still some cleaning up and styling to do. Appears to be fully functional. The session and break length can be between 1 and 60 minutes long each. I also added a "digital clock" display for the countdown timer, created using custom css shapes._
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/clock.png)
+
+- __User Story:__ _I can start a 25 minute pomodoro, and the timer will go off once 25 minutes has elapsed._
+
+- __User Story:__ _I can reset the clock for my next pomodoro._
+
+- __User Story:__ _I can customize the length of each pomodoro._
+
+
+__[Assignment Details](https://www.freecodecamp.com/challenges/build-a-pomodoro-clock)__
+
+
+__[Example Site](https://codepen.io/FreeCodeCamp/full/aNyxXR/)__
