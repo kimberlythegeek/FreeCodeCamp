@@ -22,7 +22,8 @@ ___Don't look at the example project's code. Figure it out for yourself.___
      - [Build a Wikipedia Viewer](#build-a-wikipedia-viewer)
      - [Use the Twitch.tv JSON API](#use-the-twitchtv-json-api)
    - [Advanced Front End Development Projects](#advanced-front-end-development-projects)
-     - [Build a JavaScript Calculator](#build-a-javascript-calculator)
+   - [Build a JavaScript Calculator](#build-a-javascript-calculator)
+   - [Build a Pomodoro Clock](#build-a-pomodoro-clock)
 
  ____
 
@@ -33,6 +34,8 @@ ___Don't look at the example project's code. Figure it out for yourself.___
 #### Build a Tribute Page
 
 ###### _http://codepen.io/kimberlythegeek/full/QNXvNB/_
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/tribute.png)
 
   - __User Story:__ _I can view a tribute page with an image and text._
 
@@ -49,6 +52,8 @@ ___
 #### Build a Portfolio Page
 
 ###### _http://codepen.io/kimberlythegeek/full/GZbvYj/_
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/personal-portfolio.png)
 
   - __User Story:__ _I can access all of the portfolio web page's content just by scrolling._
 
@@ -72,6 +77,9 @@ ___
 
 ###### http://codepen.io/kimberlythegeek/full/GZbamE/
 
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/quote-generator.png)
+
+
   > _I forgot about the user story for tweeting a quote. Most of my quotes are more than 140 characters, and I haven't yet gone back to add this feature._
 
   - __User Story:__ _I can click a button to show me a new random quote._
@@ -89,6 +97,9 @@ ___
 #### Show the Local Weather
 
 ###### _http://codepen.io/kimberlythegeek/full/KzOwam/_
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/weather-app.png)
+
 
   > _The geolocation does not appear to work in the Chrome browser. I'm not sure if it is an issue with this particular API or not. Others reported having a similar issue with Chrome._
 
@@ -110,6 +121,8 @@ ___
 
 ###### _http://codepen.io/kimberlythegeek/full/OXPwrQ/_
 
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/wiki-app.png)
+
   - __User Story:__ _I can search Wikipedia entries in a search box and see the resulting Wikipedia entries._
 
   - __User Story:__ _I can click a button to see a random Wikipedia entry._
@@ -125,6 +138,8 @@ ___
 #### Use the Twitch.tv JSON API
 
 ###### _http://codepen.io/kimberlythegeek/full/EygKbx/_
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/twitch.png)
 
   - __User Story:__ _I can see whether Free Code Camp is currently streaming on Twitch.tv._
 
@@ -147,6 +162,8 @@ ___
 #### Build a JavaScript Calculator
 
 ###### _http://codepen.io/kimberlythegeek/full/XKgOWd/_
+
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/javascript-calculator.png)
 
 > _Still in development._
 
