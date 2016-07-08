@@ -1,0 +1,75 @@
+.space {
+  width: 9rem;
+}
+.shape,
+.space {
+  padding: 0;
+  display: inline-flex;
+}
+.left,
+.right {
+  width: 1px;
+  height: 100px;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+}
+
+.left {
+    border-left: 10px solid #7FB800;
+}
+.right {
+  border-right: 10px solid #B8FF19;
+}
+.top,
+.bottom {
+  width: 100px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+}
+.top {
+  border-top: 10px solid #7FB800;
+}
+.bottom {
+  border-bottom: 10px solid #B8FF19;
+}
+.diamond {
+  width: 5px;
+  height: 5px;
+  background: #B8FF19;
+  margin: 7.6rem auto;
+}
+.clock {
+  text-align: center;
+  background: black;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.transparent {
+  border-color: transparent;
+}
+
+
+.time {
+  margin: 6rem auto;
+  float: none;
+}
+
+#pomodoro,
+#recess {
+  font-size: 10rem;
+  margin: -2rem auto -2.2rem;
+}
+
+.fa {
+  font-size: 3rem;
+  width: 22%;
+}
+.fa:hover{
+  cursor: pointer;
+  color: blue;
+}
+#seconds {
+  color: darkgrey;
+}

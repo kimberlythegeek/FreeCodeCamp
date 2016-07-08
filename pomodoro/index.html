@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+  </head>
+
+  <header>
+
+  </header>
+
+  <body id="body">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="clock col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+          <div id="0" class="col-md-2 col-md-offset-1 col-xs-2">
+            <div class="row" id="row-1"><div class="shape top 0 2 3 5 6 7 8 9"></div></div>
+            <div class="row" id="row-2"><div class="shape left 0 1 4 5 6 8 9"></div><div class="space"></div><div class="shape right 0 2 3 4 7 8 9"></div></div>
+            <div class="row" id="row-3"><div class="shape bottom 2 3 4 5 6 8 9"></div></div>
+            <div class="row" id="row-4"><div class="shape top 2 3 4 5 6 8 9"></div></div>
+            <div class="row" id="row-5"><div class="shape left 0 1 2 6 8"></div><div class="space"></div><div class="shape right 0 3 4 5 6 7 8 9"></div></div>
+            <div class="row" id="row-6"><div class="shape bottom 0 2 3 5 6 8 9"></div></div>
+          </div>
+          <div id="1" class="col-md-2 col-xs-2">
+            <div class="row" id="row-1"><div class="shape top 0 2 3 5 6 7 8 9"></div></div>
+            <div class="row" id="row-2"><div class="shape left 0 1 4 5 6 8 9"></div><div class="space"></div><div class="shape right 0 2 3 4 7 8 9"></div></div>
+            <div class="row" id="row-3"><div class="shape bottom 2 3 4 5 6 8 9"></div></div>
+            <div class="row" id="row-4"><div class="shape top 2 3 4 5 6 8 9"></div></div>
+            <div class="row" id="row-5"><div class="shape left 0 1 2 6 8"></div><div class="space"></div><div class="shape right 0 3 4 5 6 7 8 9"></div></div>
+            <div class="row" id="row-6"><div class="shape bottom 0 2 3 5 6 8 9"></div></div>
+          </div>
+          <div class="col-md-1">
+            <div class="diamond"></div>
+            <div class="diamond"></div>
+          </div>
+          <div id="2" class="col-md-2 col-xs-2">
+            <div class="row" id="row-1"><div class="shape top 0 2 3 5 6 7 8 9"></div></div>
+            <div class="row" id="row-2"><div class="shape left 0 1 4 5 6 8 9"></div><div class="space"></div><div class="shape right 0 2 3 4 7 8 9"></div></div>
+            <div class="row" id="row-3"><div class="shape bottom 2 3 4 5 6 8 9"></div></div>
+            <div class="row" id="row-4"><div class="shape top 2 3 4 5 6 8 9"></div></div>
+            <div class="row" id="row-5"><div class="shape left 0 1 2 6 8"></div><div class="space"></div><div class="shape right 0 3 4 5 6 7 8 9"></div></div>
+            <div class="row" id="row-6"><div class="shape bottom 0 2 3 5 6 8 9"></div></div>
+          </div>
+          <div id="3" class="col-md-2 col-xs-2">
+            <div class="row" id="row-1"><div class="shape top 0 2 3 5 6 7 8 9"></div></div>
+            <div class="row" id="row-2"><div class="shape left 0 1 4 5 6 8 9"></div><div class="space"></div><div class="shape right 0 2 3 4 7 8 9"></div></div>
+            <div class="row" id="row-3"><div class="shape bottom 2 3 4 5 6 8 9"></div></div>
+            <div class="row" id="row-4"><div class="shape top 2 3 4 5 6 8 9"></div></div>
+            <div class="row" id="row-5"><div class="shape left 0 1 2 6 8"></div><div class="space"></div><div class="shape right 0 3 4 5 6 7 8 9"></div></div>
+            <div class="row" id="row-6"><div class="shape bottom 0 2 3 5 6 8 9"></div></div>
+          </div>
+        </div><!-- .clock -->
+      </div>
+
+      <div class="row">
+        <div class="time col-md-8 col-md-offset-2 text-center" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+
+          <div class="pomodoro col-md-6">
+            <div id="up">
+              <i id="p-up" class="fa fa-chevron-up" aria-hidden="true"></i>
+            </div>
+            <div id="pomodoro" class="timer"></div>
+            <div id="down">
+              <i id="p-down" class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+          </div><!--.pomodoro-->
+
+          <div class="recess col-md-6">
+            <div id="up">
+              <i id="r-up" class="fa fa-chevron-up" aria-hidden="true"></i>
+            </div>
+            <div id="recess" class="timer"></div>
+            <div id="down">
+              <i id="r-down" class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+          </div><!--.recess-->
+
+          <button id="start" class="btn btn-primary">Start</button>
+          <!-- <button id="stop" class="btn btn-primary">Stop</button> -->
+          <button id="reset" class="btn btn-primary">Reset</button>
+        </div>
+      </div> <!-- .row -->
+    </div><!-- .container-fluid -->
+  </body>
+
+  <footer>
+  </footer>
+</html>
