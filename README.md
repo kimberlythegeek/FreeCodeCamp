@@ -12,6 +12,7 @@ _The first rule for all projects is:_
 ___Don't look at the example project's code. Figure it out for yourself.___
 
 ## Table of Contents
+
  - [Front End Development Projects](#front-end-development-projects)
    - [Basic Front End Development Projects](#basic-front-end-development-projects)
      - [Build a Tribute Page](#build-a-tribute-page)
