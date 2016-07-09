@@ -1,24 +1,7 @@
-.space {
-  width: 9rem;
-}
 .shape,
 .space {
   padding: 0;
   display: inline-flex;
-}
-.left,
-.right {
-  width: 1px;
-  height: 100px;
-  border-top: 7px solid transparent;
-  border-bottom: 7px solid transparent;
-}
-
-.left {
-    border-left: 10px solid #7FB800;
-}
-.right {
-  border-right: 10px solid #B8FF19;
 }
 .top,
 .bottom {
@@ -26,30 +9,68 @@
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
 }
+.left,
+.right {
+    width: 1px;
+    height: 74px;
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+}
 .top {
-  border-top: 10px solid #7FB800;
+  border-top: 10px solid #1481BA;
 }
 .bottom {
-  border-bottom: 10px solid #B8FF19;
+  border-bottom: 10px solid #11B5E4;
 }
-.diamond {
-  width: 5px;
-  height: 5px;
-  background: #B8FF19;
-  margin: 7.6rem auto;
+.left {
+    border-left: 13px solid #1481BA;
 }
-.clock {
-  text-align: center;
-  background: black;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
+.right {
+  border-right: 13px solid #11B5E4;
 }
-.transparent {
-  border-color: transparent;
+.space {
+  width: 74px;
+}
+.top-container {
+  margin-top: 10rem;
 }
 
+.clock {
+  text-align: center;
+  background: #001021;
+  margin-bottom: 2rem;
+}
+.colon {
+  color: #225E65;
+  font-size: 5rem;
+}
+.guidelines {
+  color: lightgrey;
+  font-size: 2rem;
+  font-style: italic;
+}
+ol {
+  background: rgba(17,181,228,0.4);
+  padding: 10px;
+}
+li {
+}
+body {
+  background: #1481BA;
+}
+tr {
+  border: 5px double #0CAADC;
+}
+td {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+#digits > td:first-child {
+  padding-left: 2.4rem;
+}
+#digits > td:last-child {
+  padding-right: 2.4rem;
+}
 
 .time {
   margin: 6rem auto;
@@ -58,18 +79,127 @@
 
 #pomodoro,
 #recess {
+  color: white;
   font-size: 10rem;
   margin: -2rem auto -2.2rem;
 }
-
-.fa {
+.set {
+  margin-bottom: 5rem;
+}
+.fa-chevron-up,
+.fa-chevron-down {
+  color: white;
   font-size: 3rem;
   width: 22%;
 }
-.fa:hover{
+.fa-chevron-up:hover,
+.fa-chevron-down:hover {
   cursor: pointer;
-  color: blue;
+  color: #11B5E4;
 }
 #seconds {
   color: darkgrey;
+}
+.btn-primary {
+}
+.btn-primary:hover {
+  background-color: #11B5E4;
+}
+#pause {
+  height: 34px;
+}
+@media (min-width: 200px){
+  .left,
+  .right {
+      width: 1px;
+      height: 45px;
+  }
+  .top,
+  .bottom {
+    width: 45px;
+  }
+  .top {
+    margin-bottom: -5px;
+  }
+  .bottom {
+    margin-top: -5px;
+  }
+  .space {
+    width: 20px;
+  }
+  .table-responsive {
+    width: 90%;
+  }
+  .clock-container {
+    margin-top: 4rem;
+    padding-top: 6rem;
+    height: 38rem;
+  }
+  #digits > td:first-child {
+    padding-left: 1rem;
+  }
+  #digits > td:last-child {
+    padding-right: 1rem;
+  }
+}
+
+@media (min-width:420px){
+  #digits > td:first-child {
+    padding-left: 1.8rem;
+  }
+  #digits > td:last-child {
+    padding-right: 1.8rem;
+  }
+}
+
+
+@media (min-width:540px){
+  .top,
+  .bottom {
+    width: 60px;
+  }
+  .left,
+  .right {
+      height: 55px;
+  }
+  .space {
+    width: 38px;
+  }
+  .clock-container {
+    height: 42rem;
+    margin-top: 6rem;
+    padding-top: 5rem;
+  }
+  .table-responsive {
+    width: 80%;
+  }
+  #digits > td:first-child {
+    padding-left: 2.4rem;
+  }
+  #digits > td:last-child {
+    padding-right: 2.4rem;
+  }
+}
+
+@media (min-width:800px){
+  .top,
+  .bottom {
+    width: 80px;
+  }
+  .left,
+  .right {
+      height: 80px;
+  }
+  .space {
+    width: 66px;
+  }
+  .table-responsive {
+    width: 75%;
+    max-width: 550px;
+  }
+}
+
+
+.transparent {
+  border-color: transparent;
 }

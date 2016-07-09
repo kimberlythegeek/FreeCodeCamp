@@ -6,48 +6,50 @@ var pomodoro = 25;
 var recess = 5;
 var endtime = 0;
 var endrecess = 0;
+var pausedAt = 0;
+var notRunning = true;
 
 function digit(number,i){
   switch(number){
     case 0:
       $('#' + i + ' > .row > .0').removeClass('transparent');
-      $('.clock > #' + i + ' > .row').children().not('.0').addClass('transparent');
+      $('#' + i + ' > .row').children().not('.0').addClass('transparent');
       break;
     case 1:
       $('#' + i + ' > .row > .1').removeClass('transparent');
-      $('.clock > #' + i + ' > .row').children().not('.1').addClass('transparent');
+      $('#' + i + ' > .row').children().not('.1').addClass('transparent');
       break;
     case 2:
       $('#' + i + ' > .row > .2').removeClass('transparent');
-      $('.clock > #' + i + ' > .row').children().not('.2').addClass('transparent');
+      $('#' + i + ' > .row').children().not('.2').addClass('transparent');
       break;
     case 3:
       $('#' + i + ' > .row > .3').removeClass('transparent');
-      $('.clock > #' + i + ' > .row').children().not('.3').addClass('transparent');
+      $('#' + i + ' > .row').children().not('.3').addClass('transparent');
       break;
     case 4:
       $('#' + i + ' > .row > .4').removeClass('transparent');
-      $('.clock > #' + i + ' > .row').children().not('.4').addClass('transparent');
+      $('#' + i + ' > .row').children().not('.4').addClass('transparent');
       break;
     case 5:
       $('#' + i + ' > .row > .5').removeClass('transparent');
-      $('.clock > #' + i + ' > .row').children().not('.5').addClass('transparent');
+      $('#' + i + ' > .row').children().not('.5').addClass('transparent');
       break;
     case 6:
       $('#' + i + ' > .row > .6').removeClass('transparent');
-      $('.clock > #' + i + ' > .row').children().not('.6').addClass('transparent');
+      $('#' + i + ' > .row').children().not('.6').addClass('transparent');
       break;
     case 7:
       $('#' + i + ' > .row > .7').removeClass('transparent');
-      $('.clock > #' + i + ' > .row').children().not('.7').addClass('transparent');
+      $('#' + i + ' > .row').children().not('.7').addClass('transparent');
       break;
     case 8:
       $('#' + i + ' > .row > .8').removeClass('transparent');
-      $('.clock > #' + i + ' > .row').children().not('.8').addClass('transparent');
+      $('#' + i + ' > .row').children().not('.8').addClass('transparent');
       break;
     case 9:
       $('#' + i + ' > .row > .9').removeClass('transparent');
-      $('.clock > #' + i + ' > .row').children().not('.9').addClass('transparent');
+      $('#' + i + ' > .row').children().not('.9').addClass('transparent');
       break;
     default:
       break;
@@ -83,7 +85,8 @@ function percentDone(time,endtime){
 }
 
 function startTimer(){
-  endtime = $.now() + 60 * pomodoro * 1000;
+  console.log('starting');
+  notRunning = false;
   pomodoroID = setInterval(function(){
     if(endtime - $.now() <= 0){
       clearInterval(pomodoroID);
@@ -92,7 +95,28 @@ function startTimer(){
     document.getElementById('pomodoro').innerHTML = (formatTime(endtime - $.now()));
   }, 1000);
   $('#start').off('click');
-  $('i').off('click');
+  $('i').not('.fa-pause').off('click');
+  // $('#pause').on('click', pauseTimer);
+}
+
+function pauseTimer(){
+  if(notRunning) resumeTimer();
+  else {
+    notRunning = true;
+    pausedAt = $.now();
+    if(pomodoroID !== null) clearInterval(pomodoroID);
+    if(recessID !== null) clearInterval(recessID);
+    document.getElementById('pause').innerHTML = '<i class="fa fa-play" aria-hidden="true"></i>';
+    $('#pause').on('click', pauseTimer);
+    console.log('pausing');
+  }
+  console.log('notRunning = ' + notRunning);
+}
+function resumeTimer() {
+  console.log('resuming');
+  endtime += ($.now() - pausedAt);
+  document.getElementById('pause').innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
+  startTimer();
 }
 
 function startBreak(){
@@ -112,11 +136,15 @@ function reset(){
   clearInterval(pomodoroID);
   clearInterval(recessID);
 
+  getDigits(0,0);
   document.getElementById('pomodoro').innerHTML = (pomodoro);
   document.getElementById('recess').innerHTML = (recess);
+  document.getElementById('pause').innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
 
+  endtime = $.now() + 60 * pomodoro * 1000;
   $('#start').on('click', startTimer);
   $('i').on('click', changeTime);
+  $('#pause').off('click');
 }
 
 function changeTime() {
@@ -154,10 +182,16 @@ function changeTime() {
 
 
 $(document).ready(function(){
+  getDigits(0,0);
   document.getElementById('pomodoro').innerHTML = (pomodoro);
   document.getElementById('recess').innerHTML = (recess);
 
-  $('i').on('click', changeTime);
-  $('#start').on('click', startTimer);
+  $('#pause').on('click', pauseTimer);
+  // $('#pause').off('click');
+  $('i').not('#pause').on('click', changeTime);
+  $('#start').on('click', function(){
+     endtime = $.now() + 60 * pomodoro * 1000;
+     startTimer();
+  });
   $('#reset').on('click', reset);
 });

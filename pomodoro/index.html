@@ -15,72 +15,85 @@
 
   <body id="body">
     <div class="container-fluid">
-      <div class="row">
-        <div class="clock col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
-          <div id="0" class="col-md-2 col-md-offset-1 col-xs-2">
-            <div class="row" id="row-1"><div class="shape top 0 2 3 5 6 7 8 9"></div></div>
-            <div class="row" id="row-2"><div class="shape left 0 1 4 5 6 8 9"></div><div class="space"></div><div class="shape right 0 2 3 4 7 8 9"></div></div>
-            <div class="row" id="row-3"><div class="shape bottom 2 3 4 5 6 8 9"></div></div>
-            <div class="row" id="row-4"><div class="shape top 2 3 4 5 6 8 9"></div></div>
-            <div class="row" id="row-5"><div class="shape left 0 1 2 6 8"></div><div class="space"></div><div class="shape right 0 3 4 5 6 7 8 9"></div></div>
-            <div class="row" id="row-6"><div class="shape bottom 0 2 3 5 6 8 9"></div></div>
-          </div>
-          <div id="1" class="col-md-2 col-xs-2">
-            <div class="row" id="row-1"><div class="shape top 0 2 3 5 6 7 8 9"></div></div>
-            <div class="row" id="row-2"><div class="shape left 0 1 4 5 6 8 9"></div><div class="space"></div><div class="shape right 0 2 3 4 7 8 9"></div></div>
-            <div class="row" id="row-3"><div class="shape bottom 2 3 4 5 6 8 9"></div></div>
-            <div class="row" id="row-4"><div class="shape top 2 3 4 5 6 8 9"></div></div>
-            <div class="row" id="row-5"><div class="shape left 0 1 2 6 8"></div><div class="space"></div><div class="shape right 0 3 4 5 6 7 8 9"></div></div>
-            <div class="row" id="row-6"><div class="shape bottom 0 2 3 5 6 8 9"></div></div>
-          </div>
-          <div class="col-md-1">
-            <div class="diamond"></div>
-            <div class="diamond"></div>
-          </div>
-          <div id="2" class="col-md-2 col-xs-2">
-            <div class="row" id="row-1"><div class="shape top 0 2 3 5 6 7 8 9"></div></div>
-            <div class="row" id="row-2"><div class="shape left 0 1 4 5 6 8 9"></div><div class="space"></div><div class="shape right 0 2 3 4 7 8 9"></div></div>
-            <div class="row" id="row-3"><div class="shape bottom 2 3 4 5 6 8 9"></div></div>
-            <div class="row" id="row-4"><div class="shape top 2 3 4 5 6 8 9"></div></div>
-            <div class="row" id="row-5"><div class="shape left 0 1 2 6 8"></div><div class="space"></div><div class="shape right 0 3 4 5 6 7 8 9"></div></div>
-            <div class="row" id="row-6"><div class="shape bottom 0 2 3 5 6 8 9"></div></div>
-          </div>
-          <div id="3" class="col-md-2 col-xs-2">
-            <div class="row" id="row-1"><div class="shape top 0 2 3 5 6 7 8 9"></div></div>
-            <div class="row" id="row-2"><div class="shape left 0 1 4 5 6 8 9"></div><div class="space"></div><div class="shape right 0 2 3 4 7 8 9"></div></div>
-            <div class="row" id="row-3"><div class="shape bottom 2 3 4 5 6 8 9"></div></div>
-            <div class="row" id="row-4"><div class="shape top 2 3 4 5 6 8 9"></div></div>
-            <div class="row" id="row-5"><div class="shape left 0 1 2 6 8"></div><div class="space"></div><div class="shape right 0 3 4 5 6 7 8 9"></div></div>
-            <div class="row" id="row-6"><div class="shape bottom 0 2 3 5 6 8 9"></div></div>
-          </div>
-        </div><!-- .clock -->
+      <div class="row top-container">
+      <table class="clock col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+        <thead></thead>
+        <tbody>
+          <tr id="digits">
+            <td id="0" class="digit">
+              <div class="row" id="row-1"><div class="shape top 0 2 3 5 6 7 8 9"></div></div>
+              <div class="row" id="row-2"><div class="shape left 0 1 4 5 6 8 9"></div><div class="space"></div><div class="shape right 0 2 3 4 7 8 9"></div></div>
+              <div class="row" id="row-3"><div class="shape bottom 2 3 4 5 6 8 9"></div></div>
+              <div class="row" id="row-4"><div class="shape top 2 3 4 5 6 8 9"></div></div>
+              <div class="row" id="row-5"><div class="shape left 0 1 2 6 8"></div><div class="space"></div><div class="shape right 0 3 4 5 6 7 8 9"></div></div>
+              <div class="row" id="row-6"><div class="shape bottom 0 2 3 5 6 8 9"></div></div>
+            </td>
+            <td id="1" class="digit">
+              <div class="row" id="row-1"><div class="shape top 0 2 3 5 6 7 8 9"></div></div>
+              <div class="row" id="row-2"><div class="shape left 0 1 4 5 6 8 9"></div><div class="space"></div><div class="shape right 0 2 3 4 7 8 9"></div></div>
+              <div class="row" id="row-3"><div class="shape bottom 2 3 4 5 6 8 9"></div></div>
+              <div class="row" id="row-4"><div class="shape top 2 3 4 5 6 8 9"></div></div>
+              <div class="row" id="row-5"><div class="shape left 0 1 2 6 8"></div><div class="space"></div><div class="shape right 0 3 4 5 6 7 8 9"></div></div>
+              <div class="row" id="row-6"><div class="shape bottom 0 2 3 5 6 8 9"></div></div>
+            </td>
+            <td class="colon">:</td>
+            <td id="2" class="digit">
+              <div class="row" id="row-1"><div class="shape top 0 2 3 5 6 7 8 9"></div></div>
+              <div class="row" id="row-2"><div class="shape left 0 1 4 5 6 8 9"></div><div class="space"></div><div class="shape right 0 2 3 4 7 8 9"></div></div>
+              <div class="row" id="row-3"><div class="shape bottom 2 3 4 5 6 8 9"></div></div>
+              <div class="row" id="row-4"><div class="shape top 2 3 4 5 6 8 9"></div></div>
+              <div class="row" id="row-5"><div class="shape left 0 1 2 6 8"></div><div class="space"></div><div class="shape right 0 3 4 5 6 7 8 9"></div></div>
+              <div class="row" id="row-6"><div class="shape bottom 0 2 3 5 6 8 9"></div></div>
+            </td>
+            <td id="3" class="digit">
+              <div class="row" id="row-1"><div class="shape top 0 2 3 5 6 7 8 9"></div></div>
+              <div class="row" id="row-2"><div class="shape left 0 1 4 5 6 8 9"></div><div class="space"></div><div class="shape right 0 2 3 4 7 8 9"></div></div>
+              <div class="row" id="row-3"><div class="shape bottom 2 3 4 5 6 8 9"></div></div>
+              <div class="row" id="row-4"><div class="shape top 2 3 4 5 6 8 9"></div></div>
+              <div class="row" id="row-5"><div class="shape left 0 1 2 6 8"></div><div class="space"></div><div class="shape right 0 3 4 5 6 7 8 9"></div></div>
+              <div class="row" id="row-6"><div class="shape bottom 0 2 3 5 6 8 9"></div></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="col-md-3 col-sm-4 col-xs-6 guidelines">
+        <ol>
+          <li>Decide on the task to be done.</li>
+          <li>Set the pomodoro timer (traditionally to 25 minutes).</li>
+          <li>Work on the task until the timer rings. If a distraction pops into your head, write it down, but immediately get back on task.</li>
+          <li>Put a checkmark on a piece of paper at the end of every pomodoro.</li>
+          <li>If you have fewer than four checkmarks, take a short break (3&#45;5 minutes), then go to step 1.</li>
+          <li>If you have more than four checkmarks, take a longer break (15&#45;30 minutes), reset your checkmark count to zero, then go to step 1</li>
+        </ol>
+
       </div>
-
+    </div><!-- .row -->
       <div class="row">
-        <div class="time col-md-8 col-md-offset-2 text-center" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+        <div class="time col-md-12 text-center" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+          <div class="set row">
+            <div class="pomodoro col-sm-3 col-sm-offset-3 col-xs-6">
+              <div id="up">
+                <i id="p-up" class="fa fa-chevron-up" aria-hidden="true"></i>
+              </div>
+              <div id="pomodoro" class="timer"></div>
+              <div id="down">
+                <i id="p-down" class="fa fa-chevron-down" aria-hidden="true"></i>
+              </div>
+            </div><!--.pomodoro-->
 
-          <div class="pomodoro col-md-6">
-            <div id="up">
-              <i id="p-up" class="fa fa-chevron-up" aria-hidden="true"></i>
-            </div>
-            <div id="pomodoro" class="timer"></div>
-            <div id="down">
-              <i id="p-down" class="fa fa-chevron-down" aria-hidden="true"></i>
-            </div>
-          </div><!--.pomodoro-->
-
-          <div class="recess col-md-6">
-            <div id="up">
-              <i id="r-up" class="fa fa-chevron-up" aria-hidden="true"></i>
-            </div>
-            <div id="recess" class="timer"></div>
-            <div id="down">
-              <i id="r-down" class="fa fa-chevron-down" aria-hidden="true"></i>
-            </div>
-          </div><!--.recess-->
+            <div class="recess col-sm-3 col-xs-6">
+              <div id="up">
+                <i id="r-up" class="fa fa-chevron-up" aria-hidden="true"></i>
+              </div>
+              <div id="recess" class="timer"></div>
+              <div id="down">
+                <i id="r-down" class="fa fa-chevron-down" aria-hidden="true"></i>
+              </div>
+            </div><!--.recess-->
+          </div><!-- .set .row -->
 
           <button id="start" class="btn btn-primary">Start</button>
-          <!-- <button id="stop" class="btn btn-primary">Stop</button> -->
+          <button id="pause" class="btn btn-primary"><i class="fa fa-pause" aria-hidden="true"></i></button>
           <button id="reset" class="btn btn-primary">Reset</button>
         </div>
       </div> <!-- .row -->
