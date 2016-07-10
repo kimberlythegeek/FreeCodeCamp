@@ -48,6 +48,7 @@
   color: lightgrey;
   font-size: 2rem;
   font-style: italic;
+  display: none;
 }
 ol {
   background: rgba(17,181,228,0.4);

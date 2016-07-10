@@ -7,7 +7,7 @@ var recess = 5;
 var endtime = 0;
 var endrecess = 0;
 var pausedAt = 0;
-var notRunning = true;
+var paused = false;
 
 function digit(number,i){
   switch(number){
@@ -86,7 +86,8 @@ function percentDone(time,endtime){
 
 function startTimer(){
   console.log('starting');
-  notRunning = false;
+  $('#pause').prop("disabled",false);
+  endtime = $.now() + 60 * pomodoro * 1000;
   pomodoroID = setInterval(function(){
     if(endtime - $.now() <= 0){
       clearInterval(pomodoroID);
@@ -96,27 +97,36 @@ function startTimer(){
   }, 1000);
   $('#start').off('click');
   $('i').not('.fa-pause').off('click');
-  // $('#pause').on('click', pauseTimer);
 }
 
 function pauseTimer(){
-  if(notRunning) resumeTimer();
+  if(paused) resumeTimer();
   else {
-    notRunning = true;
-    pausedAt = $.now();
+    paused = true;
+    var remainingPomodoro = parseInt($('#pomodoro #minutes').html()) + (parseInt($('#pomodoro #seconds').html())/60);
+    var remainingRecess = parseInt($('#recess #minutes').html()) + (parseInt($('#recess #seconds').html())/60);
+    if (remainingPomodoro > 0) pomodoro = remainingPomodoro;
+    else pomodoro = remainingRecess;
+
     if(pomodoroID !== null) clearInterval(pomodoroID);
     if(recessID !== null) clearInterval(recessID);
     document.getElementById('pause').innerHTML = '<i class="fa fa-play" aria-hidden="true"></i>';
-    $('#pause').on('click', pauseTimer);
+    $('#pause').removeClass('pause');
+    $('#pause').addClass('play');
     console.log('pausing');
   }
-  console.log('notRunning = ' + notRunning);
 }
 function resumeTimer() {
-  console.log('resuming');
-  endtime += ($.now() - pausedAt);
-  document.getElementById('pause').innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
-  startTimer();
+  if(!paused) pauseTimer();
+  else {
+    paused = false;
+    console.log('resuming');
+    endtime += ($.now() - pausedAt);
+    document.getElementById('pause').innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
+    $('#pause').addClass('pause');
+    $('#pause').removeClass('play');
+    startTimer();
+  }
 }
 
 function startBreak(){
@@ -144,7 +154,6 @@ function reset(){
   endtime = $.now() + 60 * pomodoro * 1000;
   $('#start').on('click', startTimer);
   $('i').on('click', changeTime);
-  $('#pause').off('click');
 }
 
 function changeTime() {
@@ -186,12 +195,15 @@ $(document).ready(function(){
   document.getElementById('pomodoro').innerHTML = (pomodoro);
   document.getElementById('recess').innerHTML = (recess);
 
-  $('#pause').on('click', pauseTimer);
-  // $('#pause').off('click');
+
+
+  $('#pause').prop("disabled",true);
   $('i').not('#pause').on('click', changeTime);
   $('#start').on('click', function(){
      endtime = $.now() + 60 * pomodoro * 1000;
      startTimer();
   });
   $('#reset').on('click', reset);
+  $('.play').on('click', resumeTimer);
+  $('.pause').on('click', pauseTimer);
 });
