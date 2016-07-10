@@ -44,6 +44,9 @@
   color: #225E65;
   font-size: 5rem;
 }
+#row-1, #row-3, #row-4, #row-6 {
+  height: 10px;
+}
 .guidelines {
   color: lightgrey;
   font-size: 2rem;
