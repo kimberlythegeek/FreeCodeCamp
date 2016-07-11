@@ -1,0 +1,13 @@
+#row-1, #row-2, #row-3 {
+  display: inline;
+}
+.tictactoe {
+  background: darkgrey;
+  height: 287.5px;
+}
+.square {
+  background: lightgrey;
+  height: 94px;
+  margin: 1px 1.5px;
+  width: 32%;
+}
