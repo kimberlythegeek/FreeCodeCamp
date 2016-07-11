@@ -190,7 +190,7 @@ ____
 
 > _Still in development._
 
-> _Currently displays a little diffierent on Codepen.io than it does on my LAMP server._
+> _Currently displays a little differently on Codepen.io than it does on my LAMP server._
 
 ![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/clock.png)
 
