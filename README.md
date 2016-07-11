@@ -190,9 +190,7 @@ ____
 
 > _Still in development._
 
-> _7-8-16 Still some cleaning up and styling to do. Appears to be fully functional. The session and break length can be between 1 and 60 minutes long each. I also added a "digital clock" display for the countdown timer, created using custom css shapes._
-
-> _7-8-16 Added new functionality, "pause" and "resume", and currently not functional. updated appearance, added pomodoro rules. Plan to make the clock follow the pomodoro guidelines automatically, eliminating the need for manual tracking of sessions._
+> _Currently displays a little diffierent on Codepen.io than it does on my LAMP server._
 
 ![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/clock.png)
 
