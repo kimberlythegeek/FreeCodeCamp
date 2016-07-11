@@ -215,7 +215,7 @@ ___
 
 > _In development._
 
-![alt tag](![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/tic-tac-toe.png)
+![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/tic-tac-toe.png)
 
 - __User Story:__ _I can play a game of Tic Tac Toe with the computer._
 
