@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
 .shape,
 .space {
   padding: 0;
@@ -32,7 +34,7 @@
   width: 74px;
 }
 .top-container {
-  margin-top: 10rem;
+  margin-top: 6rem;
 }
 
 .clock {
@@ -49,13 +51,27 @@
 }
 .guidelines {
   color: lightgrey;
-  font-size: 2rem;
-  font-style: italic;
-  display: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.6rem;
+  background: rgba(17,181,228,0.4);
+  margin-bottom: 8rem;
+}
+.title {
+  text-align: center;
+}
+h1 {
+  font-size: 8rem;
+  margin-bottom:6rem;
+  color: white;
+}
+h3 {
+  font-size: 4rem;
+}
+h1, h3 {
+  font-family: 'Dancing Script', cursive;
 }
 ol {
-  background: rgba(17,181,228,0.4);
-  padding: 10px;
+  padding: 2rem 2rem 2rem 4rem;
 }
 li {
 }

@@ -15,7 +15,7 @@
 
   <body id="body">
     <div class="container-fluid">
-      <div class="row top-container">
+      <div class="row top-container"><span class="title"><h1>My Pomodoro Clock</h1></span>
       <table class="clock col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
         <thead></thead>
         <tbody>
@@ -56,17 +56,7 @@
           </tr>
         </tbody>
       </table>
-      <div class="col-md-3 col-sm-4 col-xs-6 guidelines">
-        <ol>
-          <li>Decide on the task to be done.</li>
-          <li>Set the pomodoro timer (traditionally to 25 minutes).</li>
-          <li>Work on the task until the timer rings. If a distraction pops into your head, write it down, but immediately get back on task.</li>
-          <li>Put a checkmark on a piece of paper at the end of every pomodoro.</li>
-          <li>If you have fewer than four checkmarks, take a short break (3&#45;5 minutes), then go to step 1.</li>
-          <li>If you have more than four checkmarks, take a longer break (15&#45;30 minutes), reset your checkmark count to zero, then go to step 1</li>
-        </ol>
 
-      </div>
     </div><!-- .row -->
       <div class="row">
         <div class="time col-md-12 text-center" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;" unselectable="on" onselectstart="return false;" onmousedown="return false;">
@@ -97,6 +87,18 @@
           <button id="reset" class="btn btn-primary">Reset</button>
         </div>
       </div> <!-- .row -->
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12 guidelines">
+          <ol><h3>Pomodoro Guidelines</h3>
+            <li>Decide on the task to be done.</li>
+            <li>Set the pomodoro timer (traditionally to 25 minutes).</li>
+            <li>Work on the task until the timer rings. If a distraction pops into your head, write it down, but immediately get back on task.</li>
+            <li>Put a checkmark on a piece of paper at the end of every pomodoro.</li>
+            <li>If you have fewer than four checkmarks, take a short break (3&#45;5 minutes), then go to step 1.</li>
+            <li>If you have more than four checkmarks, take a longer break (15&#45;30 minutes), reset your checkmark count to zero, then go to step 1</li>
+          </ol>
+        </div><!-- .guidelines -->
+      </div><!-- .row -->
     </div><!-- .container-fluid -->
   </body>
 

@@ -25,6 +25,7 @@ ___Don't look at the example project's code. Figure it out for yourself.___
    - [Advanced Front End Development Projects](#advanced-front-end-development-projects)
      - [Build a JavaScript Calculator](#build-a-javascript-calculator)
      - [Build a Pomodoro Clock](#build-a-pomodoro-clock)
+     - [Build a Tic Tac Toe Game](#build-a-tic-tac-toe-game)
 
  ____
 
@@ -202,6 +203,28 @@ ____
 
 
 __[Assignment Details](https://www.freecodecamp.com/challenges/build-a-pomodoro-clock)__
+
+
+__[Example Site](https://codepen.io/FreeCodeCamp/full/aNyxXR/)__
+
+___
+
+#### Build a Tic Tac Toe Game
+
+###### http://codepen.io/kimberlythegeek/
+
+> _In development._
+
+![alt tag](![alt tag](https://raw.githubusercontent.com/kimberlythegeek/FreeCodeCamp/master/screenshots/tic-tac-toe.png)
+
+- __User Story:__ _I can play a game of Tic Tac Toe with the computer._
+
+- __User Story:__ _My game will reset as soon as it's over so I can play again._
+
+- __User Story:__ _I can choose whether I want to play as X or O._
+
+
+__[Assignment Details](https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game)__
 
 
 __[Example Site](https://codepen.io/FreeCodeCamp/full/aNyxXR/)__
