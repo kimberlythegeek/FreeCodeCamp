@@ -121,12 +121,7 @@ td {
   .top,
   .bottom {
     width: 45px;
-  }
-  .top {
-    margin-bottom: -5px;
-  }
-  .bottom {
-    margin-top: -5px;
+    display: inline-block;
   }
   .space {
     width: 20px;

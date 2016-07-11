@@ -63,7 +63,6 @@ function drawDigits(time){
 }
 
 function getDigits(minutes,seconds){
-  // console.log(minutes + ', ' + seconds);
   var zero = parseInt(minutes/10);
   var one = minutes%10;
   var two = parseInt(seconds/10);
@@ -85,7 +84,6 @@ function percentDone(time,endtime){
 }
 
 function startTimer(){
-  console.log('starting');
   $('#pause').prop("disabled",false);
   endtime = $.now() + 60 * pomodoro * 1000;
   pomodoroID = setInterval(function(){
@@ -113,14 +111,12 @@ function pauseTimer(){
     document.getElementById('pause').innerHTML = '<i class="fa fa-play" aria-hidden="true"></i>';
     $('#pause').removeClass('pause');
     $('#pause').addClass('play');
-    console.log('pausing');
   }
 }
 function resumeTimer() {
   if(!paused) pauseTimer();
   else {
     paused = false;
-    console.log('resuming');
     endtime += ($.now() - pausedAt);
     document.getElementById('pause').innerHTML = '<i class="fa fa-pause" aria-hidden="true"></i>';
     $('#pause').addClass('pause');
