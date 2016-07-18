@@ -1,0 +1,135 @@
+/*---- Fonts ----*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300,400italic,700,500);
+
+/*---- Site-Wide ----*/
+body {
+  color: white;
+  background: #17BEBB;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2.5rem;
+}
+ul {
+  list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  color: #CD5334;
+}
+h2 {
+  color: #17BEBB;
+}
+.link{
+  color: #17BEBB;
+  cursor: pointer;
+}
+  .link:hover, .link:focus {
+    text-decoration: none;
+    color: #CD5334;
+  }
+
+/*---- Navigation ----*/
+.nav-bar {
+  font-size: 2.4rem;
+  font-weight: 700;
+  background: #2E282A;
+  width: 100%;
+  position: fixed;
+  height: 8rem;
+  z-index:10;
+  font-family: 'Montserrat', sans-serif;
+}
+  .nav-bar ul {
+    float:right;
+  }
+  .nav-bar li {
+    padding: 2rem;
+    display: inline-flex;
+  }
+
+/*---- Body ----*/
+.body-wrapper {
+  padding-top: 10rem;
+  background: rgba(250,216,214,1);
+  box-shadow: 5px 5px 20px 5px #2E282A, -5px 5px 20px 5px #2E282A;
+}
+
+/* About Me */
+.section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 6rem;
+}
+.section-header {
+  padding: 6rem;
+}
+.section {
+  background: #2E282A;
+  margin: auto auto 4rem;
+  padding: 6rem 1rem;
+}
+.about-info {
+  margin: 2rem auto 4rem;
+}
+.profile-pic {
+}
+
+/*---- Portfolio ----*/
+.portfolio-gallery img {
+  margin: 6rem auto;
+}
+
+/*---- Footer ----*/
+.footer {
+  position: relative;
+  background: #2E282A;
+  min-width: 100%;
+  float:left;
+  height: 20rem;
+  padding: 4rem 2rem 0 2rem;
+}
+
+/*---- Media Queries ---*/
+@media (min-width:280px){
+  .profile-pic {
+    display:none;
+  }
+  h1 {
+    font-size:5rem;
+  }
+  .page-title {
+    padding: 0 0 3rem 0;
+  }
+}
+@media (min-width:640px) {
+  h1 {
+    font-size: 6rem;
+  }
+  .contact-form {
+    max-width: 60rem;
+    margin:auto;
+    float:none;
+  }
+  .page-title {
+    padding: 5rem 0;
+  }
+}
+@media (min-width:840px){
+  h1 {
+    font-size:10rem;
+  }
+}
+@media (min-width:980px){
+  .top-pic {
+    display:none;
+  }
+  .profile-pic {
+    display:block;
+  }
+}
+@media (min-width:1600px){
+  .section {
+    max-width:75%;
+  }
+}
