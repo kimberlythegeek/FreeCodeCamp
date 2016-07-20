@@ -60,6 +60,7 @@ li::after {
   display:inline-flex;
 }
 .tweet {
+  display: none;
   float: left;
   font-size: 8rem;
 }
