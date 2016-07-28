@@ -29,7 +29,7 @@ li::after {
   color: #DCE1DE;
   background: #1F2421;
   min-height: 15rem;
-  margin: 10rem auto auto;
+  margin: 10rem auto 5rem auto;
   float:none;
   border-radius: 15px;
   line-height:8rem;
