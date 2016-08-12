@@ -32,48 +32,47 @@ function showWeather(myURL){
       $("#temp").html(json.main.temp + "&deg; " + unit_type);
       $("#description").html(json.weather[0].main + '<img src="http://openweathermap.org/img/w/' + json.weather[0].icon + '.png">');
     }
-    });
+  });
 }
 
 $(document).ready(function(){
 
   showWeather(myURL);
-  
+
   $(".locate").on("click", function(){
     getLocation();
   });
-  
+
   $('.dropdown-toggle').dropdown();
-  
+
   $("#imperial").on("click", function() {
     units = "imperial";
     unit_type = "Fahrenheit";
-    
+
     $(".btn-text").text($(this).text());
     $(".btn-text").val($(this).text());
-    
+
     var myURL = api_url + "?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=" + key3 + "&units=" + units;
     showWeather(myURL);
   });
   $("#metric").on("click", function() {
     units = "metric";
     unit_type = "Celsius";
-    
+
     $(".btn-text").text($(this).text());
     $(".btn-text").val($(this).text());
-    
+
     var myURL = api_url + "?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=" + key3 + "&units=" + units;
     showWeather(myURL);
   });
   $("#standard").on("click", function() {
     units = "";
     unit_type = "Kelvin";
-    
+
     $(".btn-text").text($(this).text());
     $(".btn-text").val($(this).text());
-    
+
     var myURL = api_url + "?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=" + key3 + "&units=" + units;
     showWeather(myURL);
   });
-
 });
