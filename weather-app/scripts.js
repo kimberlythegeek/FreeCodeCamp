@@ -1,4 +1,4 @@
-var api_url = "https://api.openweathermap.org/data/2.5/weather";
+var api_url = "http://api.openweathermap.org/data/2.5/weather";
 var key1 = "cc6c04231d28a4b46874430579930f03";
 var key2 = "79d177f71b0c4ac22658f36fcfeee67a";
 var key3 = "439e66a85f6226dd18c2e58f01d30e8c";
@@ -31,7 +31,7 @@ function showWeather(myURL){
     success : function(json) {
       $("#city").html(json.name + ", " + json.sys.country);
       $("#temp").html(json.main.temp + "&deg; " + unit_type);
-      $("#description").html(json.weather[0].main + '<img src="https://openweathermap.org/img/w/' + json.weather[0].icon + '.png">');
+      $("#description").html(json.weather[0].main + '<img src="http://openweathermap.org/img/w/' + json.weather[0].icon + '.png">');
     }
   });
 }
