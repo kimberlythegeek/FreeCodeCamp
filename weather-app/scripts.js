@@ -15,6 +15,7 @@ function getLocation() {
     navigator.geolocation.getCurrentPosition(getLocalWeather);
   } else {
     alert("geolocation not supported");
+  }
 }
 
 function getLocalWeather(current){
@@ -55,6 +56,7 @@ $(document).ready(function(){
     var myURL = api_url + "?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=" + key3 + "&units=" + units;
     showWeather(myURL);
   });
+
   $("#metric").on("click", function() {
     units = "metric";
     unit_type = "Celsius";
@@ -65,6 +67,7 @@ $(document).ready(function(){
     var myURL = api_url + "?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude + "&APPID=" + key3 + "&units=" + units;
     showWeather(myURL);
   });
+
   $("#standard").on("click", function() {
     units = "";
     unit_type = "Kelvin";
